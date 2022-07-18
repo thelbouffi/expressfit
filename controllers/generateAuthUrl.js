@@ -1,9 +1,11 @@
 const { google } = require("googleapis");
 
+console.log('=============> ', process.env.GOOGLE_REDIRECT_URIS)
 const oauth2Client = new google.auth.OAuth2(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
-  JSON.parse(process.env.GOOGLE_REDIRECT_URIS).shift()
+  process.env.GOOGLE_REDIRECT_URIS
+  // JSON.parse(process.env.GOOGLE_REDIRECT_URIS).shift()
 );
 
 const scopes = [

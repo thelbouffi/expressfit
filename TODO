@@ -1,0 +1,16 @@
+
+Todo:
+  ✔ GG Fit POC - Create express server with mongoDB connexion for fast implementation of the POC @done(22-07-13 13:38)
+  ✔ GG Fit POC - Fitenss app configuration in google cloud @done(22-07-13 13:38)
+  ✔ GG Fit POC - Implement OAuth2 connexion to be able to consume GG fitness API @done(22-07-13 13:38)
+  ☐ GG Fit POC - Enhence token handling between our server and GG Fit API
+  ☐ GG Fit POC - Get steps & its management @started(22-07-13 13:39)
+  ☐ GG Fit POC - Get distance from total steps only & its management
+  ☐ GG Fit POC - Get distance from running  only & its management
+  ☐ GG Fit POC - Get distance from walking only & its management
+  ☐ GG Fit POC - Get active duration & its management
+  ☐ GG Fit POC - Get sleep duration & its management
+  ☐ GG Fit POC - Get weight data & its management
+  ☐ GG Fit POC - Get distance from biking only & its management
+  ☐ GG Fit POC - Get distance from swimming only & its management
+

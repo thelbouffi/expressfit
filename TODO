@@ -14,3 +14,44 @@ Todo:
   ☐ GG Fit POC - Get distance from biking only & its management
   ☐ GG Fit POC - Get distance from swimming only & its management
 
+
+
+#######################################################################################
+Team Challenges
+☐ distance/steps
+  ☐  depending on challenge unit => calculate using steps / or KM
+    ☐  KM calculation progress
+      ☐ by tracker
+        ☐ Fitbit: ok 
+        ☐ Garmin: hard
+        ☐ apple health: hard
+    ☐  Steps calculation progress
+      ☐ by tracker
+        ☐ Fitbit: ok
+        ☐ Garmin: not ok (manual)
+        ☐ apple health: not ok (manual)
+
+Google Fit
+☐ connect tracker logic
+☐ in every login we should get data from gg fit server
+  ☐ get his access token
+  ☐ get steps depending on if he has a challenges
+  ☐ save in our platform comming results
+☐ if participating on a challenge
+  ☐ when cron job will run, if gg fit user, then it will call data from our DB instead of fetching from Validic
+☐ weekly metrics
+  ☐ get token
+  ☐ get steps, activity...
+☐ Noticed problems
+  ☐ bad synchronisation
+  ☐ anble to get distance of steps only
+
+Individual Challenges
+☐ check if challenge is douable depending on tracker
+☐ Edit individual Challenges
+
+
+
+
+
+
